@@ -32,6 +32,11 @@ dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
+
+	//Spring Cloud
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+	implementation 'org.springframework.cloud:spring-cloud-starter-loadbalancer'
+
 	// queryDsl 관련 코드생성 기능 제공
 	implementation 'com.querydsl:querydsl-jpa:5.0.0:jakarta'
 	// queryDsl 라이브러리
